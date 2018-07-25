@@ -12,7 +12,7 @@ import { PhotosModule } from './photos/photos.module';
     BrowserModule,
     PhotosModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ ],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
