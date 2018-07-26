@@ -47,7 +47,6 @@ export class SignInComponent implements OnInit {
             return this.loginForm.reset();
         }
 
-        console.log('autenticado');
         this.router.navigate(['user', userName]);
     }
 }
