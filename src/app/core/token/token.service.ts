@@ -13,7 +13,7 @@ export class TokenService {
     return window.localStorage.setItem(KEY, token);
   }
 
-  public getToken(): string {
+  public getToken(): string | undefined {
     return window.localStorage.getItem(KEY);
   }
 
